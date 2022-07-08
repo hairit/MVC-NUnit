@@ -1,0 +1,22 @@
+﻿.title {
+   padding : 10px 0;
+}
+.fail-register{
+    width : 100%;
+    color : #ffffff;
+    font-size : 50px;
+    font-weight : 500;
+    padding : 50px 0;
+    text-align : center
+}
+.success-register {
+    width: 100%;
+    color: #ffd800;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 50px 0;
+    text-align: center
+}
+.errors-validate{
+    color : red;
+}

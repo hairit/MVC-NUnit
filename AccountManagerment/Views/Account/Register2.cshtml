@@ -1,0 +1,58 @@
+﻿@model AccountManagerment.Models.Account
+
+@{
+    ViewBag.Title = "Register2";
+}
+		<!--header-->
+		<div class="header-w3l">
+			<h1>Event Unit Tests for Beginner</h1>
+		</div>
+		<!--//header-->
+		<!--main-->
+		<div class="main-w3layouts-agileinfo">
+	           <!--form-stars-here-->
+						<div class="wthree-form">
+							<h2>Fill out the form below to register</h2>
+							<form method="post" asp-action="Register2">
+								<div class="form-sub-w3">
+									<input type="text" name="Email" id="email-input" placeholder="Your email " asp-for="@Model.Email" onkeyup="checkForm()"/>
+									@Html.ValidationMessageFor(account => account.Email, "", new { @class = "text-danger" })
+								<div class="icon-w3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								</div>
+								<div class="form-sub-w3">
+									<input type="text" name="Fullname" id="name-input" placeholder="Your name" asp-for="@Model.Fullname" onkeyup="checkForm()"/>
+									 @Html.ValidationMessageFor(account => account.Fullname, "", new { @class = "text-danger" })
+								<div class="icon-w3">
+									<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+								</div>
+								</div>
+								@{
+									if(ViewBag.errors != null){
+										for(int i = 0; i < ViewBag.errors.Count; i++)
+										{
+													<div class="errors-validate">@ViewBag.errors[i]</div>
+										}
+								}
+								}
+								<label class="anim">
+								<input type="checkbox" class="checkbox">
+									<span>Remember Me</span> 
+									<a href="#">Forgot Password</a>
+								</label> 
+								<div class="clear"></div>
+								<div class="submit-agileits">
+									<input type="submit" id="handle-submit" value="Login" disabled>
+								</div>
+							</form>
+						</div>
+				<!--//form-ends-here-->
+		</div>
+		<!--//main-->
+		<!--footer-->
+		<div class="footer">
+			<p>&copy; 2017 Glassy Login Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		</div>
+		<!--//footer-->
+
