@@ -65,7 +65,7 @@ namespace AccountManagerment.Models.ModelValidate
             if (!lengthOfNameIsValid(fullName))
             {
                 this.valid = false;
-                this.errors.Add("Length of name is not allow greater than 200");
+                this.errors.Add("Length of name is not allow greater than 100");
             }
             if (!IsValid(email))
             {

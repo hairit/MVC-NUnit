@@ -65,6 +65,31 @@ namespace AccountManagement.Test
         }
 
         [Test]
+        public void AccountService_GetAccounts_JsonFormat_Test() {
+            //Arrange
+            ResponseAccount responseAccountTest = new ResponseAccount()
+            {
+                status = "OK",
+                data = new List<Account>()
+                {
+                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
+                    new Account() { Email = "test",Fullname = "Quoc Dat"},
+                    new Account() { Email = "test",Fullname = "Stephen Dang"},
+                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
+                    new Account() { Email = "test",Fullname = "Tuong Hai"},
+                    new Account() { Email = "test",Fullname = "Anh Thu"},
+                },
+                message = null
+            };
+            //Act
+            var mockAccountRepository = new MockAccountRepository().mockGetAccounts(responseAccountTest);
+            _accountService = new AccountService(mockAccountRepository.Object);
+            var result = _accountService.getAccounts();
+            //Assert
+            JsonConvert.SerializeObject(result);
+            Assert.Pass();
+        }
+        [Test]
         public void AccountService_GetAccounts_JsonFormat_Test_Success()
         {
             //Arrange
@@ -154,7 +179,7 @@ namespace AccountManagement.Test
         [TestCase("tuonghai.contact@gmail.com", "123")]// fail
         [TestCase("tuonghai.contact@gmail.com", "456")]// fail
         [TestCase("tuonghai.contact@gmail.com", "789")]// fail
-        [TestCase("tuonghai.contact@gmail.com", "")]// fail
+        [TestCase("tuonghai@gmail.com", "Tuong Hai")]// fail
         public void AccountService_Register_Test(string email,string fullname)
         {
             //Arrange

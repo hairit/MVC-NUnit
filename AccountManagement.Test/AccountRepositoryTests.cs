@@ -12,7 +12,6 @@ namespace AccountManagement.Test
     public class AccountRepositoryTests
     {
         public AccountRepository _accountRepository;
-
         [Test]
         public void AccountRepository_GetAccounts_Success_Test()
         {
@@ -49,12 +48,13 @@ namespace AccountManagement.Test
                 Assert.That(result.data[i].Fullname, Is.EqualTo(expectedResponse.data[i].Fullname));
             }
         }
+        [Test]
         public void AccountRepository_GetAccounts_Fail_Test()
         {
             //Arrange
             List<Account> accountsMockResult = new List<Account>()
             {
-                new Account() { Email = "tuonghai.contact@gmail.com",Fullname = "Tuong Hai"},
+                new Account() { Email = "fail.contact@gmail.com",Fullname = "Tuong Hai"},
                 new Account() { Email = "tuongminh.pham@gmail.com",Fullname = "Tuong Minh"},
                 new Account() { Email = "huynhtrang.pham@gmail.com",Fullname = "Huynh Trang"},
             };
@@ -66,9 +66,9 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                    {
-                        new Account() { Email = "fail.contact@gmail.com",Fullname = "Tuong Hai"},
-                        new Account() { Email = "fail.pham@gmail.com",Fullname = "Tuong Minh"},
-                        new Account() { Email = "fail.pham@gmail.com",Fullname = "Fail"},
+                         new Account() { Email = "tuonghai.contact@gmail.com",Fullname = "Tuong Hai"},
+                         new Account() { Email = "tuongminh.pham@gmail.com",Fullname = "Tuong Minh"},
+                         new Account() { Email = "huynhtrang.pham@gmail.com",Fullname = "Huynh Trang"},
                    },
                 message = null
             };
