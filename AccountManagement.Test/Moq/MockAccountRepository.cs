@@ -30,5 +30,10 @@ namespace AccountManagement.Test.Moq
             }
             return this;
         }
+        public MockAccountRepository mockGetAccounts(ResponseAccount response)
+        {
+            Setup(x => x.GetAccounts()).Returns(response);
+            return this;
+        }
     }
 }

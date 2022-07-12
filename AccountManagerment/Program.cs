@@ -27,5 +27,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Register2}/{id?}");
-
+//app.MapControllerRoute(
+//    name: "Manager",
+//    pattern: "{controller=Manager}/{action=sendEmail}/{email?}");
 app.Run();

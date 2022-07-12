@@ -27,6 +27,7 @@ namespace AccountManagement.Test
             //Assert
             Assert.That(result, Is.EqualTo(expectedValue));
         }
+
         [TestCase("tuonghai.contact@gmail.com")] //fail
         [TestCase("")] // pass
         public void checkEmailEmpty_Test(string email)
@@ -38,6 +39,7 @@ namespace AccountManagement.Test
             //Assert
             Assert.That(result, Is.EqualTo(expectedValue));
         }
+
         [TestCase("name")] //fail
         [TestCase("")] //pass
         public void checkNameEmpty_Test(string name)
@@ -49,6 +51,7 @@ namespace AccountManagement.Test
             //Assert
             Assert.That(result, Is.EqualTo(expectedValue));
         }
+
         [TestCase("tuonghai.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com")] //fail
         [TestCase("tuonghai.contact@gmail.com")] //pass
         public void checkLengthOfEmail(string email)
@@ -60,6 +63,7 @@ namespace AccountManagement.Test
             //Assert
             Assert.That(result, Is.EqualTo(expectedValue));
         }
+
         [TestCase("Tuong Hai")] // pass
         [TestCase("Tuong Haiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")] // fail
         public void checkLengthOfName(string fullName)
@@ -71,6 +75,7 @@ namespace AccountManagement.Test
             //Assert
             Assert.That(result, Is.EqualTo(expectedValue));
         }
+
         //Check Validate Account
         [TestCase("tuonghai.contact@gmail.com","Tuong Hai")] // fail
         [TestCase("tony.nguyen@gmail.com", "Tony Nguyen")] // fail

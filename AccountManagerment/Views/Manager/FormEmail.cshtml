@@ -1,0 +1,45 @@
+﻿@model AccountManagerment.Models.Email
+@{
+}
+<!--header-->
+		<div class="header-w3l">
+			<h1>Mailto</h1>
+		</div>
+		<!--//header-->
+		<!--main-->
+		<div class="main-w3layouts-agileinfo form-email">
+	           <!--form-stars-here-->
+						<div class="wthree-form">
+							<h2>Send your email</h2>
+							<form>
+								<div class="form-sub-w3">
+									<input type="text" name="Email-Address" id="email-address-input" value="@ViewBag.Email" asp-for="@Model.EmailAddress" readonly />
+								<div class="icon-w3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								</div>
+								<div class="form-sub-w3">
+									<input type="text" name="Subject" id="subject-input" placeholder="Your subject" onkeyup="checkEmailForm()"/>
+								<div class="icon-w3">
+									<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+								</div>
+								</div>
+								<div class="form-sub-w3">
+									<input type="text" name="Message" id="message-input" placeholder="Your message" onkeyup="checkEmailForm()"/>
+								<div class="icon-w3">
+									<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+								</div>
+								</div>
+								<div class="submit-agileits">
+									<input type="submit" id="handle-send-email" value="Send" onclick="sendEmail()" disabled>
+								</div>
+							</form>
+						</div>
+				<!--//form-ends-here-->
+		</div>
+		<!--//main-->
+		<!--footer-->
+		<div class="footer">
+			@*<p>&copy; 2017 Glassy Login Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>*@
+		</div>
+		<!--//footer-->

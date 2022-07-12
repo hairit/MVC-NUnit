@@ -1,10 +1,13 @@
-﻿using AccountManagerment.Models;
+﻿using AccountManagerment.Controllers;
+using AccountManagerment.Models;
 
 namespace AccountManagerment.Repositories
 {
     public interface IAccountDatabaseAction
     {
         bool AddAccountToDatabase(AssignmentContext _context, Account acc);
+        List<Account> GetAccounts(AssignmentContext _context);
+
     }
     public class AccountDatabaseAction : IAccountDatabaseAction
     {
@@ -22,11 +25,15 @@ namespace AccountManagerment.Repositories
                 return false;
             }
         }
+        public List<Account> GetAccounts(AssignmentContext _context)
+        {
+            return _context.Accounts.ToList();
+        }
     }
     public interface IAccountRepository
     {
         Account Register(string email, string fullName);
-       
+        ResponseAccount GetAccounts();
     }
     public class AccountRepository : IAccountRepository
     {
@@ -66,5 +73,28 @@ namespace AccountManagerment.Repositories
         //        return null;
         //    }
         //}
+
+        public ResponseAccount GetAccounts()
+        {
+            ResponseAccount response = new ResponseAccount()
+            {
+                status = "OK",
+                data = new List<Account>()
+            };
+            try
+            {
+                List<Account> accounts = _action.GetAccounts(_context);
+                if(accounts.Count > 0)
+                {
+                    response.data = accounts;
+                }
+                return response;
+            }catch(Exception e)
+            {
+                response.status = "ERROR";
+                response.message = e.Message;
+                return response;
+            }
+        }
     }
 }

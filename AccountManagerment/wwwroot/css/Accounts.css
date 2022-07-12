@@ -1,0 +1,34 @@
+﻿.table-accounts{
+    color : white;
+    height : max-content;
+}
+.tr-item{
+    color : aqua;
+    width : 200px;
+    padding : 10px 20px;
+}
+.td-item {
+    width: 200px;
+    padding: 10px 20px;
+}
+.accounts-list {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.title-email-list{
+    display : block;
+}
+.th-item {
+    width: 200px;
+    padding: 10px 20px;
+    color : aqua ; 
+}
+.icon-email{
+    color : aqua ;
+    font-size : 30px !important;
+}
+.form-email{
+    width : 50% !important;
+}

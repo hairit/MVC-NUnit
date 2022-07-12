@@ -42,7 +42,7 @@ namespace AccountManagerment.Models.ModelValidate
         }
         public bool lengthOfNameIsValid(string fullName)
         {
-            if (fullName.Length > 200) return false;
+            if (fullName.Length > 100) return false;
             else return true;
         }
         public void isValidateAccount(string email,string fullName)

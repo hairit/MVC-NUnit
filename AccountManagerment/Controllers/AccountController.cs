@@ -25,11 +25,6 @@ namespace AccountManagerment.Controllers
             _accountService = new AccountService(_accountRepostory);
         }
         [HttpGet]
-        public ActionResult ListAccount()
-        {
-            return View();
-        }
-        [HttpGet]
         public ActionResult RegisterFail()
         {
             return View();

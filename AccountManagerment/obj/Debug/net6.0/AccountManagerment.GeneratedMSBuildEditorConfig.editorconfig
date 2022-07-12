@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Devsoft\Desktop\AccountManagerment\AccountManagerment
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Devsoft/Desktop/AccountManagerment/AccountManagerment/Views/Account/ListAccount.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMaXN0QWNjb3VudC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Devsoft/Desktop/AccountManagerment/AccountManagerment/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -33,6 +29,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Devsoft/Desktop/AccountManagerment/AccountManagerment/Views/Account/RegisterSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlclN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Devsoft/Desktop/AccountManagerment/AccountManagerment/Views/Manager/Accounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBY2NvdW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Devsoft/Desktop/AccountManagerment/AccountManagerment/Views/Manager/FormEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxGb3JtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Devsoft/Desktop/AccountManagerment/AccountManagerment/Views/Shared/_ValidationScriptsPartial.cshtml]

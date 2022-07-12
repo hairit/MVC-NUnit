@@ -10,20 +10,13 @@
     <link rel="stylesheet" href="~/css/Form.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/styles/font-awesome.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/styles/style.css" asp-append-version="true" />
-</head>
+    <link rel="stylesheet" href="~/css/Accounts.css" asp-append-version="true" /></head>
+    <link rel="stylesheet" href="~/css/font-awesome//css/font-awesome.css">
+    <link rel="stylesheet" href="~/css/font-awesome//css/font-awesome.min.css">
 <body>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - AccountManagerment - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    @RenderBody()
     <script src="~/js/Form.js"></script>
+    <script src="~/js/SendEmail.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

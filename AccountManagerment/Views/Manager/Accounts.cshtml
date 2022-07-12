@@ -1,0 +1,35 @@
+﻿
+@{
+
+}
+<h1 class="title-email-list">Email List</h1>
+<div class="accounts-list">
+    <table class="table-accounts">
+  <thead>
+      <tr>
+             <th class="th-item">#</th>
+             <th class="th-item">Fullname</th>
+             <th class="th-item">Email</th>
+             <th class="th-item">Actions</th>
+      </tr>
+  </thead>
+<tbody>
+            @{
+                List<Account> accounts = ViewBag.Accounts;
+                for(int i = 0; i < accounts.Count ; i++)
+                {
+                                     <tr>
+                                          <td class="td-item">@i</td>
+                                          <td class="td-item">@accounts.ElementAt(i).Fullname</td>
+                                          <td class="td-item">@accounts.ElementAt(i).Email</td>
+                                          <td class="td-item">
+                                                <a href="https://localhost:7217/manager/FormEmail/@accounts.ElementAt(i).Email">
+                                                    <i class="fa fa-envelope icon-email" aria-hidden="true"></i>
+                                                </a>
+                                          </td>
+                                     </tr>
+                }
+            }
+  </tbody>
+</table>
+</div>
