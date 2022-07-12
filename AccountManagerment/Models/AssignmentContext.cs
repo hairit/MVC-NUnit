@@ -5,11 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace AccountManagerment.Models
 {
-    public interface IAssignmentContext
-    {
-        
-    }
-    public partial class AssignmentContext : DbContext,IAssignmentContext
+    public partial class AssignmentContext : DbContext
     {
         public AssignmentContext()
         {
@@ -34,19 +30,13 @@ namespace AccountManagerment.Models
         {
             modelBuilder.Entity<Account>(entity =>
             {
-                entity.HasKey(e => e.Email)
-                    .HasName("PK__Account__AB6E6165362F6244");
+                entity.HasKey(e => e.Email);
 
                 entity.ToTable("Account");
 
-                entity.Property(e => e.Email)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("email");
+                entity.Property(e => e.Email).HasMaxLength(50);
 
-                entity.Property(e => e.Fullname)
-                    .HasMaxLength(100)
-                    .HasColumnName("fullname");
+                entity.Property(e => e.FullName).HasMaxLength(100);
             });
 
             OnModelCreatingPartial(modelBuilder);

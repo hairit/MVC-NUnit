@@ -10,18 +10,18 @@ namespace AccountManagerment.Controllers
     public class AccountAPIController : ControllerBase
     {
         private readonly AssignmentContext _context;
-        private readonly AccountService _accountService;
-        private readonly AccountRepository _accountRepository;
+        private  AccountService _accountService;
+        private  AccountRepository _accountRepository;
         public AccountAPIController(AssignmentContext context)
         {
             _context = context;
-            _accountRepository = new AccountRepository(context, new AccountDatabaseAction());
-            _accountService = new AccountService(_accountRepository);
         }
         [HttpGet]
         public ResponseAccount GetAccounts()
         {
-            return _accountService.getAccounts();
+            _accountRepository = new AccountRepository(this._context, new AccountDatabaseAction());
+            _accountService = new AccountService(_accountRepository);
+            return _accountService.GetAccounts();
         }
     }
 }

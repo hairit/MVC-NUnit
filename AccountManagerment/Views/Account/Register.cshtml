@@ -17,9 +17,9 @@
          <div>
             <div class="title">Your name:</div>
             <div>
-                @Html.TextBoxFor(acc => acc.Fullname , new {@class = "form-input" , @id ="name-input" , @onkeyup = "checkForm();"})
+                @Html.TextBoxFor(acc => acc.FullName , new {@class = "form-input" , @id ="name-input" , @onkeyup = "checkForm();"})
                 @ViewData["fullName-error"]
-                @Html.ValidationMessageFor(account => account.Fullname, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(account => account.FullName, "", new { @class = "text-danger" })
             </div>
         </div>
         <div>

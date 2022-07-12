@@ -23,12 +23,12 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                 {
-                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                    new Account() { Email = "test",Fullname = "Quoc Dat"},
-                    new Account() { Email = "test",Fullname = "Stephen Dang"},
-                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                    new Account() { Email = "test",Fullname = "Tuong Hai"},
-                    new Account() { Email = "test",Fullname = "Anh Thu"},
+                    new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                    new Account() { Email = "test",FullName = "Quoc Dat"},
+                    new Account() { Email = "test",FullName = "Stephen Dang"},
+                    new Account() { Email = "test",FullName = "Nam Nguyen"},
+                    new Account() { Email = "test",FullName = "Tuong Hai"},
+                    new Account() { Email = "test",FullName = "Anh Thu"},
                 },
                 message = null
             };
@@ -37,12 +37,12 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                 {
-                     new Account() { Email = "test",Fullname = "Anh Thu"},
-                     new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                     new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                     new Account() { Email = "test",Fullname = "Quoc Dat"},
-                     new Account() { Email = "test",Fullname = "Stephen Dang"},
-                     new Account() { Email = "test",Fullname = "Tuong Hai"},
+                     new Account() { Email = "test",FullName = "Anh Thu"},
+                     new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                     new Account() { Email = "test",FullName = "Nam Nguyen"},
+                     new Account() { Email = "test",FullName = "Quoc Dat"},
+                     new Account() { Email = "test",FullName = "Stephen Dang"},
+                     new Account() { Email = "test",FullName = "Tuong Hai"},
                     //new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
                     //new Account() { Email = "test",Fullname = "Quoc Dat"},
                     //new Account() { Email = "test",Fullname = "Stephen Dang"},
@@ -55,36 +55,37 @@ namespace AccountManagement.Test
             var mockAccountRepository = new MockAccountRepository().mockGetAccounts(responseAccountTest);
             _accountService = new AccountService(mockAccountRepository.Object);
             //Act
-            ResponseAccount result = _accountService.getAccounts();
+            ResponseAccount result = _accountService.GetAccounts();
             //Assert
             for (int i = 0; i < result.data.Count; i++)
             {
                 Assert.That(result.data[i].Email, Is.EqualTo(expectedResponse.data[i].Email));
-                Assert.That(result.data[i].Fullname, Is.EqualTo(expectedResponse.data[i].Fullname));
+                Assert.That(result.data[i].FullName, Is.EqualTo(expectedResponse.data[i].FullName));
             }
         }
 
         [Test]
-        public void AccountService_GetAccounts_JsonFormat_Test() {
+        public void AccountService_GetAccounts_JsonFormat_Test()
+        {
             //Arrange
             ResponseAccount responseAccountTest = new ResponseAccount()
             {
                 status = "OK",
                 data = new List<Account>()
                 {
-                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                    new Account() { Email = "test",Fullname = "Quoc Dat"},
-                    new Account() { Email = "test",Fullname = "Stephen Dang"},
-                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                    new Account() { Email = "test",Fullname = "Tuong Hai"},
-                    new Account() { Email = "test",Fullname = "Anh Thu"},
+                    new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                    new Account() { Email = "test",FullName = "Quoc Dat"},
+                    new Account() { Email = "test",FullName = "Stephen Dang"},
+                    new Account() { Email = "test",FullName = "Nam Nguyen"},
+                    new Account() { Email = "test",FullName = "Tuong Hai"},
+                    new Account() { Email = "test",FullName = "Anh Thu"},
                 },
                 message = null
             };
             //Act
             var mockAccountRepository = new MockAccountRepository().mockGetAccounts(responseAccountTest);
             _accountService = new AccountService(mockAccountRepository.Object);
-            var result = _accountService.getAccounts();
+            var result = _accountService.GetAccounts();
             //Assert
             JsonConvert.SerializeObject(result);
             Assert.Pass();
@@ -98,12 +99,12 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                 {
-                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                    new Account() { Email = "test",Fullname = "Quoc Dat"},
-                    new Account() { Email = "test",Fullname = "Stephen Dang"},
-                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                    new Account() { Email = "test",Fullname = "Tuong Hai"},
-                    new Account() { Email = "test",Fullname = "Anh Thu"},
+                    new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                    new Account() { Email = "test",FullName = "Quoc Dat"},
+                    new Account() { Email = "test",FullName = "Stephen Dang"},
+                    new Account() { Email = "test",FullName = "Nam Nguyen"},
+                    new Account() { Email = "test",FullName = "Tuong Hai"},
+                    new Account() { Email = "test",FullName = "Anh Thu"},
                 },
                 message = null
             };
@@ -111,23 +112,22 @@ namespace AccountManagement.Test
             _accountService = new AccountService(mockAccountRepository.Object);
             ResponseAccount expectedResult = new ResponseAccount()
             {
-
                 status = "OK",
                 data = new List<Account>()
                 {
-                    new Account() { Email = "test",Fullname = "Anh Thu" },
-                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                    new Account() { Email = "test",Fullname = "Quoc Dat"},
-                    new Account() { Email = "test",Fullname = "Stephen Dang"},
-                    new Account() { Email = "test",Fullname = "Tuong Hai"},
-                   
+                    new Account() { Email = "test",FullName = "Anh Thu" },
+                    new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                    new Account() { Email = "test",FullName = "Nam Nguyen"},
+                    new Account() { Email = "test",FullName = "Quoc Dat"},
+                    new Account() { Email = "test",FullName = "Stephen Dang"},
+                    new Account() { Email = "test",FullName = "Tuong Hai"},
+
                 },
                 message = null
             };
             string expectedJsonFormatResult = JsonConvert.SerializeObject(expectedResult);
             //Act
-            string resultJson = JsonConvert.SerializeObject(_accountService.getAccounts());
+            string resultJson = JsonConvert.SerializeObject(_accountService.GetAccounts());
             //Assert
             Assert.IsTrue(resultJson == expectedJsonFormatResult);
         }
@@ -141,12 +141,12 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                 {
-                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                    new Account() { Email = "test",Fullname = "Quoc Dat"},
-                    new Account() { Email = "test",Fullname = "Stephen Dang"},
-                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                    new Account() { Email = "test",Fullname = "Tuong Hai"},
-                    new Account() { Email = "test",Fullname = "Anh Thu"},
+                    new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                    new Account() { Email = "test",FullName = "Quoc Dat"},
+                    new Account() { Email = "test",FullName = "Stephen Dang"},
+                    new Account() { Email = "test",FullName = "Nam Nguyen"},
+                    new Account() { Email = "test",FullName = "Tuong Hai"},
+                    new Account() { Email = "test",FullName = "Anh Thu"},
                 },
                 message = null
             };
@@ -158,19 +158,19 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                 {
-                    new Account() { Email = "test",Fullname = "Le Thanh Hoa"},
-                    new Account() { Email = "test",Fullname = "Nam Nguyen"},
-                    new Account() { Email = "test",Fullname = "Quoc Dat"},
-                    new Account() { Email = "test",Fullname = "Stephen Dang"},
-                    new Account() { Email = "test",Fullname = "Tuong Hai"},
-                    new Account() { Email = "test",Fullname = "Anh Thu" },
+                    new Account() { Email = "test",FullName = "Le Thanh Hoa"},
+                    new Account() { Email = "test",FullName = "Nam Nguyen"},
+                    new Account() { Email = "test",FullName = "Quoc Dat"},
+                    new Account() { Email = "test",FullName = "Stephen Dang"},
+                    new Account() { Email = "test",FullName = "Tuong Hai"},
+                    new Account() { Email = "test",FullName = "Anh Thu" },
 
                 },
                 message = null
             };
             string expectedJsonFormatResult = JsonConvert.SerializeObject(expectedResult);
             //Act
-            string resultJson = JsonConvert.SerializeObject(_accountService.getAccounts());
+            string resultJson = JsonConvert.SerializeObject(_accountService.GetAccounts());
             //Assert
             Assert.IsFalse(resultJson == expectedJsonFormatResult);
         }
@@ -180,21 +180,26 @@ namespace AccountManagement.Test
         [TestCase("tuonghai.contact@gmail.com", "456")]// fail
         [TestCase("tuonghai.contact@gmail.com", "789")]// fail
         [TestCase("tuonghai@gmail.com", "Tuong Hai")]// fail
-        public void AccountService_Register_Test(string email,string fullname)
+        public void AccountService_Register_Test(string email, string fullname)
         {
             //Arrange
+            Account account = new Account()
+            {
+                FullName = fullname,
+                Email = email
+            };
             var mockAccountRepository = new MockAccountRepository().mockRegister(email, fullname);
             _accountService = new AccountService(mockAccountRepository.Object);
             Account expectedAccountValue = new Account()
             {
                 Email = "tuonghai.contact@gmail.com",
-                Fullname = "Tuong Hai"
+                FullName = "Tuong Hai"
             };
             //Act
-            Account result = _accountService.Register(email, fullname);
+            Account result = _accountService.Register(account);
             //Assert
             Assert.That(result.Email, Is.EqualTo(expectedAccountValue.Email));
-            Assert.That(result.Fullname, Is.EqualTo(expectedAccountValue.Fullname));
+            Assert.That(result.FullName, Is.EqualTo(expectedAccountValue.FullName));
         }
     }
 }

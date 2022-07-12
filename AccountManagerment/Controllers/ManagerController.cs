@@ -24,7 +24,7 @@ namespace AccountManagerment.Controllers
         }
         public ActionResult Accounts()
         {
-            ResponseAccount response = _accountService.getAccounts();
+            ResponseAccount response = _accountService.GetAccounts();
             ViewBag.Accounts = response.data;
             return View();
         }

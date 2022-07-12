@@ -19,15 +19,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Register2}/{id?}");
-//app.MapControllerRoute(
-//    name: "Manager",
-//    pattern: "{controller=Manager}/{action=sendEmail}/{email?}");
 app.Run();

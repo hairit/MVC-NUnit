@@ -16,26 +16,44 @@
 							<form method="post" asp-action="Register2">
 								<div class="form-sub-w3">
 									<input type="text" name="Email" id="email-input" placeholder="Your email " asp-for="@Model.Email" onkeyup="checkForm()"/>
-									@Html.ValidationMessageFor(account => account.Email, "", new { @class = "text-danger" })
+									@*@Html.ValidationMessageFor(account => account.Email, "", new { @class = "text-danger" })*@
+									
 								<div class="icon-w3">
 									<i class="fa fa-user" aria-hidden="true"></i>
 								</div>
 								</div>
+								@{
+										if(ViewBag.errors != null){
+											var errorsList = ViewBag.errors;
+											for(int i = 0; i < errorsList.Count; i++)
+											{
+													if(errorsList[i].typeError == "email")
+													{
+														<div class="errors-validate">@errorsList[i].messageError</div>
+													}
+
+											}
+										}
+									}
 								<div class="form-sub-w3">
-									<input type="text" name="Fullname" id="name-input" placeholder="Your name" asp-for="@Model.Fullname" onkeyup="checkForm()"/>
-									 @Html.ValidationMessageFor(account => account.Fullname, "", new { @class = "text-danger" })
+									<input type="text" name="Fullname" id="name-input" placeholder="Your name" asp-for="@Model.FullName" onkeyup="checkForm()"/>
+									 @*@Html.ValidationMessageFor(account => account.FullName, "", new { @class = "text-danger" })*@
 								<div class="icon-w3">
 									<i class="fa fa-unlock-alt" aria-hidden="true"></i>
 								</div>
 								</div>
 								@{
-									if(ViewBag.errors != null){
-										for(int i = 0; i < ViewBag.errors.Count; i++)
-										{
-													<div class="errors-validate">@ViewBag.errors[i]</div>
+										if(ViewBag.errors != null){
+											var errorsList = ViewBag.errors;
+											for(int i = 0; i < errorsList.Count; i++)
+											{
+													if(errorsList[i].typeError == "name")
+													{
+														<div class="errors-validate">@errorsList[i].messageError</div>
+													}
+											}
 										}
-								}
-								}
+									}
 								<label class="anim">
 								<input type="checkbox" class="checkbox">
 									<span>Remember Me</span> 

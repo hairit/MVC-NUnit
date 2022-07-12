@@ -1,21 +1,24 @@
-﻿using AccountManagerment.Controllers;
-using AccountManagerment.Models;
-using AccountManagerment.Repositories;
+﻿using AccountManagerment.Models;
+using AccountManagerment.Repositories.Interface;
+using AccountManagerment.Services.Interface;
 
 namespace AccountManagerment.Services
 {
-    public class AccountService
+    public class AccountService : IAccountService
     {
         private IAccountRepository _accountRepository;
+
         public AccountService(IAccountRepository accountRepository)
         {
             this._accountRepository = accountRepository;
         }
-        public Account Register(string email,string fullName)
+
+        public Account Register(Account account)
         {
-            return _accountRepository.Register(email,fullName);
+            return _accountRepository.Register(account);
         }
-        public ResponseAccount getAccounts()
+
+        public ResponseAccount GetAccounts()
         {
             ResponseAccount response = _accountRepository.GetAccounts();
             if(response.data.Count > 1)

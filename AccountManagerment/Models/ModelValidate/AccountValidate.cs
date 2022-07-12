@@ -1,26 +1,38 @@
 ﻿using System.Net.Mail;
-using System.Collections.Generic;
 namespace AccountManagerment.Models.ModelValidate
 {
     public class AccountValidate
     {
         public bool valid;
-        public List<string> errors;
+        public List<Error> errors;
+
         public AccountValidate()
         {
             this.valid = true;
-            this.errors = new List<string>();
+            this.errors = new List<Error>();
         }
-        public bool checkEmailEmpty(string email)
+
+        public bool CheckEmpty(string value)
         {
-            if (email.Length == 0) return true;
-            else return false;
+            if(value != null)
+            {
+                if (value == " ") return true;
+                if (value.Length == 0) return true;
+                return false;
+            }
+            return true;
         }
-        public bool checkNameEmpty(string fullName)
+
+        private bool CheckMaxOfLength(string value,int maxLength = 0)
         {
-            if (fullName.Length == 0) return true;
-            else return false;
+            if(value != null || maxLength != 0)
+            {
+                if (value.Length > maxLength) return true;
+                return false;
+            }
+            return true;
         }
+        
         public bool IsValid(string email)
         {
             var valid = true;
@@ -35,43 +47,49 @@ namespace AccountManagerment.Models.ModelValidate
 
             return valid;
         }
-        public bool lengthOfEmailIsValid(string email)
+
+        public void IsValidateAccount(Account account)
         {
-            if (email.Length > 50) return false;
-            else return true;
-        }
-        public bool lengthOfNameIsValid(string fullName)
-        {
-            if (fullName.Length > 100) return false;
-            else return true;
-        }
-        public void isValidateAccount(string email,string fullName)
-        {
-            if (checkEmailEmpty(email))
+            int maxLengthEmail = 50;
+            int maxLengthName = 100;
+            if (CheckEmpty(account.Email))
             {
-                this.valid = false;
-                this.errors.Add("Please enter your email address");
+                this.errors.Add(new Error()
+                {
+                    typeError = "email",
+                    messageError = "Your email is empty"
+                });
+            }else if (!IsValid(account.Email))
+            {
+                this.errors.Add(new Error()
+                {
+                    typeError = "email",
+                    messageError = "Your email is invalid"
+                });
+            }else if (CheckMaxOfLength(account.Email, maxLengthEmail))
+            {
+                this.errors.Add(new Error()
+                {
+                    typeError = "email",
+                    messageError = $"Your email is not allow greater than {maxLengthEmail}"
+                });
             }
-            if (checkNameEmpty(fullName))
+            if (CheckEmpty(account.FullName))
             {
-                this.valid = false;
-                this.errors.Add("Please enter your name");
+                this.errors.Add(new Error()
+                {
+                    typeError = "name",
+                    messageError = "Your name is empty"
+                });
+            }else if (CheckMaxOfLength(account.FullName, maxLengthName))
+            {
+                this.errors.Add(new Error()
+                {
+                    typeError = "name",
+                    messageError = $"Your name is not allow greater than {maxLengthName}"
+                });
             };
-            if (!lengthOfEmailIsValid(email))
-            {
-                this.valid = false;
-                this.errors.Add("Length of email is not allow greater than 50");
-            }
-            if (!lengthOfNameIsValid(fullName))
-            {
-                this.valid = false;
-                this.errors.Add("Length of name is not allow greater than 100");
-            }
-            if (!IsValid(email))
-            {
-                this.valid = false;
-                this.errors.Add("Email is invalid");
-            };
+            if (this.errors.Count > 0) this.valid = false;
         }
     }
 }

@@ -18,14 +18,14 @@ namespace AccountManagement.Test.Moq
                 Setup(x => x.Register(It.IsAny<string>(), It.IsAny<string>())).Returns(new Account
                 {
                     Email = null,
-                    Fullname = null
+                    FullName = null
                 });
             }else
             {
                 Setup(x => x.Register(It.IsAny<string>(), It.IsAny<string>())).Returns(new Account()
                 {
                     Email = email,
-                    Fullname = fullname
+                    FullName = fullname
                 });
             }
             return this;

@@ -1,11 +1,7 @@
 ﻿using AccountManagerment.Models;
 using AccountManagerment.Repositories;
+using AccountManagerment.Repositories.Interface;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccountManagement.Test
 {
@@ -18,9 +14,9 @@ namespace AccountManagement.Test
             //Arrange
             List<Account> accountsMockResult = new List<Account>()
             {
-                new Account() { Email = "tuonghai.contact@gmail.com",Fullname = "Tuong Hai"},
-                new Account() { Email = "tuongminh.pham@gmail.com",Fullname = "Tuong Minh"},
-                new Account() { Email = "huynhtrang.pham@gmail.com",Fullname = "Huynh Trang"},
+                new Account() { Email = "tuonghai.contact@gmail.com",FullName = "Tuong Hai"},
+                new Account() { Email = "tuongminh.pham@gmail.com",FullName = "Tuong Minh"},
+                new Account() { Email = "huynhtrang.pham@gmail.com",FullName = "Huynh Trang"},
             };
             var a = new Mock<AssignmentContext>();
             var b = new Mock<IAccountDatabaseAction>();
@@ -30,33 +26,34 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                    {
-                        new Account() { Email = "tuonghai.contact@gmail.com",Fullname = "Tuong Hai"},
-                        new Account() { Email = "tuongminh.pham@gmail.com",Fullname = "Tuong Minh"},
-                        new Account() { Email = "huynhtrang.pham@gmail.com",Fullname = "Huynh Trang"},
+                        new Account() { Email = "tuonghai.contact@gmail.com",FullName = "Tuong Hai"},
+                        new Account() { Email = "tuongminh.pham@gmail.com",FullName = "Tuong Minh"},
+                        new Account() { Email = "huynhtrang.pham@gmail.com",FullName = "Huynh Trang"},
                    },
                 message = null
             };
-            _accountRepository = new AccountRepository(a.Object,b.Object);
+            _accountRepository = new AccountRepository(a.Object, b.Object);
             //Act
             var result = _accountRepository.GetAccounts();
             //Assert
             Assert.That(result.status, Is.EqualTo(expectedResponse.status));
             Assert.That(result.message, Is.EqualTo(expectedResponse.message));
-            for(int i = 0; i < result.data.Count; i++)
+            for (int i = 0; i < result.data.Count; i++)
             {
                 Assert.That(result.data[i].Email, Is.EqualTo(expectedResponse.data[i].Email));
-                Assert.That(result.data[i].Fullname, Is.EqualTo(expectedResponse.data[i].Fullname));
+                Assert.That(result.data[i].FullName, Is.EqualTo(expectedResponse.data[i].FullName));
             }
         }
+
         [Test]
         public void AccountRepository_GetAccounts_Fail_Test()
         {
             //Arrange
             List<Account> accountsMockResult = new List<Account>()
             {
-                new Account() { Email = "fail.contact@gmail.com",Fullname = "Tuong Hai"},
-                new Account() { Email = "tuongminh.pham@gmail.com",Fullname = "Tuong Minh"},
-                new Account() { Email = "huynhtrang.pham@gmail.com",Fullname = "Huynh Trang"},
+                new Account() { Email = "fail.contact@gmail.com",FullName = "Tuong Hai"},
+                new Account() { Email = "tuongminh.pham@gmail.com",FullName = "Tuong Minh"},
+                new Account() { Email = "huynhtrang.pham@gmail.com",FullName = "Huynh Trang"},
             };
             var a = new Mock<AssignmentContext>();
             var b = new Mock<IAccountDatabaseAction>();
@@ -66,9 +63,9 @@ namespace AccountManagement.Test
                 status = "OK",
                 data = new List<Account>()
                    {
-                         new Account() { Email = "tuonghai.contact@gmail.com",Fullname = "Tuong Hai"},
-                         new Account() { Email = "tuongminh.pham@gmail.com",Fullname = "Tuong Minh"},
-                         new Account() { Email = "huynhtrang.pham@gmail.com",Fullname = "Huynh Trang"},
+                         new Account() { Email = "tuonghai.contact@gmail.com",FullName = "Tuong Hai"},
+                         new Account() { Email = "tuongminh.pham@gmail.com",FullName = "Tuong Minh"},
+                         new Account() { Email = "huynhtrang.pham@gmail.com",FullName = "Huynh Trang"},
                    },
                 message = null
             };
@@ -79,7 +76,7 @@ namespace AccountManagement.Test
             for (int i = 0; i < result.data.Count; i++)
             {
                 Assert.That(result.data[i].Email, Is.EqualTo(expectedResponse.data[i].Email));
-                Assert.That(result.data[i].Fullname, Is.EqualTo(expectedResponse.data[i].Fullname));
+                Assert.That(result.data[i].FullName, Is.EqualTo(expectedResponse.data[i].FullName));
             }
         }
 
@@ -88,38 +85,49 @@ namespace AccountManagement.Test
         [TestCase("stephen.contact@gmail.com", "Stephen")] // fail
         [TestCase("tuongminh.contact@gmail.com", "Stephen")] // fail
         [TestCase("tuongminh.contact@gmail.com", "Stephen")] // fail
-        public void AccountRepository_Register_Success_Test(string email,string fullName){
+        public void AccountRepository_Register_Success_Test(string email, string fullName)
+        {
             //Arrange
+            Account accountMock = new Account()
+            {
+                FullName =fullName,
+                Email = email
+            };
             var a = new Mock<AssignmentContext>();
             var b = new Mock<IAccountDatabaseAction>();
-            b.Setup(x => x.AddAccountToDatabase(It.IsAny<AssignmentContext>(), It.IsAny<Account>())).Returns(true);
-            _accountRepository = new AccountRepository(a.Object,b.Object);
+            b.Setup(x => x.InsertAccount(It.IsAny<AssignmentContext>(), It.IsAny<Account>())).Returns(true);
+            _accountRepository = new AccountRepository(a.Object, b.Object);
             Account expectedResult = new Account()
             {
                 Email = "tuonghai.contact@gmail.com",
-                Fullname = "Tuong Hai"
+                FullName = "Tuong Hai"
             };
             //Act
-            Account result = _accountRepository.Register(email, fullName);
+            Account result = _accountRepository.Register(accountMock);
             //Assert
             Assert.That(result.Email, Is.EqualTo(expectedResult.Email));
-            Assert.That(result.Fullname, Is.EqualTo(expectedResult.Fullname));
+            Assert.That(result.FullName, Is.EqualTo(expectedResult.FullName));
         }
 
         [TestCase("tuonghai.contact@gmail.com", "Tuong Hai")] // pass
         public void AccountRepository_Register_Fail_Test(string email, string fullName)
         {
             //Arrange
+            Account accountMock = new Account()
+            {
+                FullName = fullName,
+                Email = email
+            };
             var a = new Mock<AssignmentContext>();
             var b = new Mock<IAccountDatabaseAction>();
-            b.Setup(x => x.AddAccountToDatabase(It.IsAny<AssignmentContext>(), It.IsAny<Account>())).Returns(false);
+            b.Setup(x => x.InsertAccount(It.IsAny<AssignmentContext>(), It.IsAny<Account>())).Returns(false);
             _accountRepository = new AccountRepository(a.Object, b.Object);
             Account expectedResult = null;
             //Act
-            Account result = _accountRepository.Register(email, fullName);
+            Account result = _accountRepository.Register(accountMock);
             //Assert
             Assert.That(result, Is.EqualTo(expectedResult));
-            
+
         }
     }
 }

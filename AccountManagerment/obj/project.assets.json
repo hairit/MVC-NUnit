@@ -10346,19 +10346,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Devsoft\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Devsoft\\Desktop\\AccountManagerment\\AccountManagerment\\AccountManagerment.csproj",
+      "projectUniqueName": "D:\\MVC-NUnit\\AccountManagerment\\AccountManagerment.csproj",
       "projectName": "AccountManagerment",
-      "projectPath": "C:\\Users\\Devsoft\\Desktop\\AccountManagerment\\AccountManagerment\\AccountManagerment.csproj",
-      "packagesPath": "C:\\Users\\Devsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Devsoft\\Desktop\\AccountManagerment\\AccountManagerment\\obj\\",
+      "projectPath": "D:\\MVC-NUnit\\AccountManagerment\\AccountManagerment.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\MVC-NUnit\\AccountManagerment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Devsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
