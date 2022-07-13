@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ztL10+hocu6VIMHQc2wJ/+lTmH0ilwb4AQ0jRIVb19g=",
+  "Hash": "A8+ShBI/1WJLWYqdietAmX8E/VeyKSLCvMkEHicLrlg=",
   "Source": "AccountManagerment",
   "BasePath": "_content/AccountManagerment",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AccountManagerment\\wwwroot",
       "Source": "AccountManagerment",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AccountManagerment.styles.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AccountManagerment.styles.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "AccountManagerment.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AccountManagerment.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AccountManagerment.styles.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AccountManagerment.bundle.scp.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AccountManagerment.bundle.scp.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "AccountManagerment.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AccountManagerment.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AccountManagerment.bundle.scp.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\Accounts.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\Accounts.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/Accounts.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Accounts.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\font-awesome\\css\\font-awesome.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\font-awesome\\css\\font-awesome.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/font-awesome/css/font-awesome.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\font-awesome\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\font-awesome\\css\\font-awesome.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/font-awesome/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\Form.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\Form.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/Form.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Form.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\site.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\styles\\font-awesome.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\styles\\font-awesome.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/styles/font-awesome.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles\\font-awesome.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\styles\\style.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\css\\styles\\style.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "css/styles/style.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles\\style.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\favicon.ico",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\images\\bann.jpg",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\images\\bann.jpg",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "images/bann.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bann.jpg"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\js\\Form.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\js\\Form.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "js/Form.js",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Form.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\js\\SendEmail.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\js\\SendEmail.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "js/SendEmail.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\SendEmail.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\js\\site.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AccountManagerment",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Devsoft\\Desktop\\MVC-NUnit\\AccountManagerment\\wwwroot\\",
       "BasePath": "_content/AccountManagerment",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

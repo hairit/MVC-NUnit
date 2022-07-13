@@ -17,7 +17,35 @@ namespace AccountManagerment.Repositories
         public Account Register(Account account)
         {
             if (_action.InsertAccount(_context, account)) return account;
-            else return null;
+            else return new Account()
+            {
+                Email = null,
+                FullName = null
+            };
+        }
+
+        public ResponseAccount GetAccounts()
+        {
+            ResponseAccount response = new ResponseAccount()
+            {
+                status = "OK",
+                data = new List<Account>()
+            };
+            try
+            {
+                List<Account> accounts = _action.GetAccounts(_context);
+                if (accounts.Count > 0)
+                {
+                    response.data = accounts;
+                }
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.status = "ERROR";
+                response.message = e.Message;
+                return response;
+            }
         }
 
         //public Account Register(string email, string fullName)
@@ -39,28 +67,5 @@ namespace AccountManagerment.Repositories
         //        return null;
         //    }
         //}
-
-        public ResponseAccount GetAccounts()
-        {
-            ResponseAccount response = new ResponseAccount()
-            {
-                status = "OK",
-                data = new List<Account>()
-            };
-            try
-            {
-                List<Account> accounts = _action.GetAccounts(_context);
-                if(accounts.Count > 0)
-                {
-                    response.data = accounts;
-                }
-                return response;
-            }catch(Exception e)
-            {
-                response.status = "ERROR";
-                response.message = e.Message;
-                return response;
-            }
-        }
     }
 }

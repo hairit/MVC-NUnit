@@ -12,10 +12,12 @@ namespace AccountManagerment.Controllers
         private readonly AssignmentContext _context;
         private  AccountService _accountService;
         private  AccountRepository _accountRepository;
+
         public AccountAPIController(AssignmentContext context)
         {
             _context = context;
         }
+
         [HttpGet]
         public ResponseAccount GetAccounts()
         {

@@ -3,14 +3,15 @@ using AccountManagerment.Models;
 using AccountManagerment.Models.ModelValidate;
 using AccountManagerment.Repositories;
 using AccountManagerment.Services;
+using AccountManagerment.Services.Interface;
 
 namespace AccountManagerment.Controllers
 {
     public class AccountController : Controller
     {
         private readonly AssignmentContext _context;
-        private AccountRepository _accountRepostory;
-        private AccountService _accountService;
+        public AccountRepository _accountRepostory;
+        public IAccountService _accountService;
 
         public AccountController(AssignmentContext context)
         {
@@ -48,13 +49,13 @@ namespace AccountManagerment.Controllers
                     _accountRepostory = new AccountRepository(this._context, new AccountDatabaseAction());
                     _accountService = new AccountService(_accountRepostory);
                     var newAccount = _accountService.Register(account);
-                    if (newAccount == null)
+                    if (newAccount.Email == null || newAccount.FullName == null)
                     {
                         return RedirectToAction("RegisterFail");
                     }
                     else
                     {
-                        return RedirectToAction("RegisterSuccess", newAccount);
+                        return RedirectToAction("RegisterSuccess",account = newAccount);
                     }
                 }
                 else return this.Register2(validate.errors);

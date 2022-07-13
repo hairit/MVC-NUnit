@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AccountManagerment
 build_property.RootNamespace = AccountManagerment
-build_property.ProjectDir = D:\MVC-NUnit\AccountManagerment\
+build_property.ProjectDir = C:\Users\Devsoft\Desktop\MVC-NUnit\AccountManagerment\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\MVC-NUnit\AccountManagerment
+build_property.MSBuildProjectDirectory = C:\Users\Devsoft\Desktop\MVC-NUnit\AccountManagerment
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Account/Register.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Account/Register2.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Account/Register2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlcjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Account/RegisterFail.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Account/RegisterFail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckZhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Account/RegisterSuccess.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Account/RegisterSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlclN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Manager/Accounts.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Manager/Accounts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBY2NvdW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Manager/FormEmail.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Manager/FormEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxGb3JtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/_ViewImports.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/_ViewStart.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC-NUnit/AccountManagerment/Views/Shared/_Layout.cshtml]
+[C:/Users/Devsoft/Desktop/MVC-NUnit/AccountManagerment/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cc5uc1a9bx
