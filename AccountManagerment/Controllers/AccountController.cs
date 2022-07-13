@@ -46,8 +46,11 @@ namespace AccountManagerment.Controllers
                 validate.IsValidateAccount(account);
                 if (validate.valid)
                 {
-                    _accountRepostory = new AccountRepository(this._context, new AccountDatabaseAction());
-                    _accountService = new AccountService(_accountRepostory);
+                    if(_accountRepostory == null && _accountService == null)
+                    {
+                        _accountRepostory = new AccountRepository(this._context, new AccountDatabaseAction());
+                        _accountService = new AccountService(_accountRepostory);
+                    }
                     var newAccount = _accountService.Register(account);
                     if (newAccount.Email == null || newAccount.FullName == null)
                     {

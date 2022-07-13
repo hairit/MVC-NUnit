@@ -25,11 +25,11 @@ namespace AccountManagerment.Repositories
 
     public class AccountDatabaseAction : IAccountDatabaseAction
     {
-        public bool InsertAccount(AssignmentContext _context, Account acc)
+        public bool InsertAccount(AssignmentContext _context, Account account)
         {
             try
             {
-                _context.Accounts.Add(acc);
+                _context.Accounts.Add(account);
                 _context.SaveChanges();
                 return true;
             }

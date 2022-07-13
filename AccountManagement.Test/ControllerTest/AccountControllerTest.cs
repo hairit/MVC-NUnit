@@ -33,5 +33,25 @@ namespace AccountManagement.Test.ControllerTest
             //Assert
             Assert.That(result.ActionName,Is.EqualTo(expected.ActionName));
         }
+
+        [Test]
+        public void When_CallRegister2WithValidAccount_ReturnRegisterSuccess()
+        {
+            //Arrange
+            Account account = new Account()
+            {
+                Email = "test.nguyen@gmail.com",
+                FullName = "Unit c#"
+            };
+            var mockAccountService = new MockAccountService().MockRegister(account);
+            var mockAssignmentContext = new Mock<AssignmentContext>();
+            AccountController accountController = new AccountController(mockAssignmentContext.Object);
+            accountController._accountService = mockAccountService.Object;
+            RedirectToActionResult expected = accountController.RedirectToAction("RegisterSuccess");
+            //Act
+            RedirectToActionResult result = (RedirectToActionResult)accountController.Register2(account);
+            //Assert
+            Assert.That(result.ActionName, Is.EqualTo(expected.ActionName));
+        }
     }
 }
