@@ -21,7 +21,7 @@ namespace AccountManagerment.Controllers
         [HttpGet]
         public ResponseAccount GetAccounts()
         {
-            _accountRepository = new AccountRepository(this._context, new AccountDatabaseAction());
+            _accountRepository = new AccountRepository(this._context);
             _accountService = new AccountService(_accountRepository);
             return _accountService.GetAccounts();
         }

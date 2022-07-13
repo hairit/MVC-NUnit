@@ -48,7 +48,7 @@ namespace AccountManagerment.Controllers
                 {
                     if(_accountRepostory == null && _accountService == null)
                     {
-                        _accountRepostory = new AccountRepository(this._context, new AccountDatabaseAction());
+                        _accountRepostory = new AccountRepository(this._context);
                         _accountService = new AccountService(_accountRepostory);
                     }
                     var newAccount = _accountService.Register(account);

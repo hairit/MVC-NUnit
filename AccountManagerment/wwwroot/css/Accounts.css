@@ -32,3 +32,16 @@
 .form-email{
     width : 50% !important;
 }
+.my-footer{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding : 30px 0;
+}
+#path-to-manager-btn{
+    color : black;
+    padding : 15px 20px;
+    background-color : aqua ;
+    border-radius : 5px;
+    font-weight : 500;
+}

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 namespace AccountManagerment.Models
 {
     public partial class Account : IComparable<Account>

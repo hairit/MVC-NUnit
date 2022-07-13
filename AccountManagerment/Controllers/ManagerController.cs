@@ -14,7 +14,7 @@ namespace AccountManagerment.Controllers
         public ManagerController(AssignmentContext context)
         {
             _context = context;
-            _accountRepostory = new AccountRepository(context, new AccountDatabaseAction());
+            _accountRepostory = new AccountRepository(context);
             _accountService = new AccountService(_accountRepostory);
         }
 

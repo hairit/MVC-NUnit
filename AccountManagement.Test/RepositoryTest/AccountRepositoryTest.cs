@@ -1,7 +1,6 @@
-﻿using AccountManagerment.Models;
+﻿using AccountManagement.Test.Moq;
+using AccountManagerment.Models;
 using AccountManagerment.Repositories;
-using AccountManagerment.Repositories.Interface;
-using Moq;
 
 namespace AccountManagement.Test.RepositoryTest
 {
@@ -9,91 +8,106 @@ namespace AccountManagement.Test.RepositoryTest
     internal class AccountRepositoryTest
     {
         [TestCase("tuonghai.contact@gmail.com", "Tuong Hai")]
-        [TestCase("tuong.doan@devsoft", "Tuong Doan")]
-        public void When_CallRegisterWithNotNullAccount_ReturnExpectedAccount(string email,string fullName)
+        public void When_CallRegisterWithValidAccount_ReturnExpectedAccount(string email,string fullName)
         {
-            //Arrange
-            var a = new Mock<AssignmentContext>();
-            var b = new Mock<IAccountDatabaseAction>();
-            b.Setup(x => x.InsertAccount(It.IsAny<AssignmentContext>(),It.IsAny<Account>())).Returns(true);
-            AccountRepository accountRepo = new AccountRepository(a.Object,b.Object);
+            //Arange
+            Account account = new Account()
+            {
+                Email = email,
+                FullName = fullName
+            };
+            var mockContext = new MockContext().mockAccounts();
             Account expectedAccount = new Account()
             {
                 Email = email,
                 FullName = fullName
             };
+            var accountRepository = new AccountRepository(mockContext.Object);
             //Act
-            var result = accountRepo.Register(new Account()
-            {
-                Email = email,
-                FullName = fullName,
-            });
+            var result = accountRepository.Register(account);
             //Assert
+            Assert.That(result.Email,Is.EqualTo(expectedAccount.Email));
             Assert.That(result.FullName, Is.EqualTo(expectedAccount.FullName));
-            Assert.That(result.Email, Is.EqualTo(expectedAccount.Email));
         }
 
         [Test]
-        public void When_CallRegisterWithNotNullAccount_ReturnNull()
+        public void When_CallRegisterWithNullInput_ReturnNullAccount()
         {
-            //Arrange
-            var a = new Mock<AssignmentContext>();
-            var b = new Mock<IAccountDatabaseAction>();
-            b.Setup(x => x.InsertAccount(It.IsAny<AssignmentContext>(), It.IsAny<Account>())).Returns(false);
-            AccountRepository accountRepo = new AccountRepository(a.Object, b.Object);
-            //Act
-            var result = accountRepo.Register(new Account()
+            //Arange
+            var mockContext = new MockContext().mockAccounts();
+            Account expectedAccount = new Account()
             {
-                Email = "test@gmail.com",
-                FullName = "Nunit Test"
-            });
+                Email = null,
+                FullName = null
+            };
+            var accountRepository = new AccountRepository(mockContext.Object);
+            //Act
+            var result = accountRepository.Register(null);
             //Assert
-            Assert.That(result.Email, Is.EqualTo(null));
-            Assert.That(result.FullName, Is.EqualTo(null));
+            Assert.That(result.Email, Is.EqualTo(expectedAccount.Email));
+            Assert.That(result.FullName, Is.EqualTo(expectedAccount.FullName));
         }
 
         [Test]
         public void When_CallGetAccounts_ReturnResponseWithData()
         {
-            //Arrange
-            List<Account> mockAccounts = new List<Account>()
-            {
-                new Account(){Email = "tuonghai.contact@gmail.com",FullName = "Tuong Hai"},
-                new Account(){Email = "tuong.doan@devsoft.vn",FullName = "Tuong Doan"},
-            };
-            var a = new Mock<AssignmentContext>();
-            var b = new Mock<IAccountDatabaseAction>();
-            b.Setup(x => x.GetAccounts(It.IsAny<AssignmentContext>())).Returns(mockAccounts);
-            AccountRepository accountRepo = new AccountRepository(a.Object, b.Object);
+            //Arange
             ResponseAccount expectedResponse = new ResponseAccount()
             {
                 status = "OK",
-                data = mockAccounts,
-                message = null
+                data = new List<Account>()
+                {
+                    new Account(){Email = "tuonghai.contact@gmail.com",FullName = "Tuong Hai"},
+                    new Account(){Email = "tuong.doan@devsoft.vn",FullName = "Tuong Doan"},
+                    new Account(){Email = "nam.nguyen@devsoft.vn",FullName = "Nam nguyen"},
+                },
             };
+            MockContext mockContext = new MockContext().mockGetAccounts(expectedResponse.data);
+            var accountRepository = new AccountRepository(mockContext.Object);
             //Act
-            var result = accountRepo.GetAccounts();
+            var accounts = accountRepository.GetAccounts();
             //Assert
-            Assert.That(result.status, Is.EqualTo(expectedResponse.status));
-            for(int i = 0; i < result.data.Count; i++)
+            Assert.That(accounts.status, Is.EqualTo(expectedResponse.status));
+            Assert.That(accounts.data.Count, Is.EqualTo(expectedResponse.data.Count));
+            for(int i = 0; i < accounts.data.Count; i++)
             {
-                Assert.That(result.data[i], Is.EqualTo(expectedResponse.data[i]));
+                Assert.That(accounts.data[i].FullName, Is.EqualTo(expectedResponse.data[i].FullName));
+                Assert.That(accounts.data[i].Email, Is.EqualTo(expectedResponse.data[i].Email));
             }
         }
 
         [Test]
         public void When_CallGetAccounts_ReturnResponseWithoutData()
         {
-            //Arrange
-            var a = new Mock<AssignmentContext>();
-            var b = new Mock<IAccountDatabaseAction>();
-            b.Setup(x => x.GetAccounts(It.IsAny<AssignmentContext>())).Returns(new List<Account>());
-            AccountRepository accountRepo = new AccountRepository(a.Object, b.Object);
+            //Arange
+            
+            MockContext mockContext = new MockContext().mockGetAccounts(new List<Account>());
+            var accountRepository = new AccountRepository(mockContext.Object);
             //Act
-            var result = accountRepo.GetAccounts();
+            var responseResult = accountRepository.GetAccounts();
             //Assert
-            Assert.That(result.status, Is.EqualTo("OK"));
-            Assert.That(result.data.Count, Is.EqualTo(0));
+            Assert.That(responseResult.status, Is.EqualTo("OK"));
+            Assert.That(responseResult.data.Count, Is.EqualTo(0));
+            Assert.That(responseResult.message, Is.EqualTo(null));
+        }
+
+        [Test]
+        public void When_CallGetAccounts_ReturnResponseWithError()
+        {
+            //Arange
+            var mockContext = new MockContext().mockAccounts();
+            var accountRepository = new AccountRepository(mockContext.Object);
+            var expectedResponse = new ResponseAccount()
+            {
+                status = "ERROR",
+                message = "Specified method is not supported."
+            };
+            //Act
+            var responseResult = accountRepository.GetAccounts();
+            //Assert
+            Assert.That(responseResult.status,Is.EqualTo(expectedResponse.status));
+            Assert.That(responseResult.data.Count, Is.EqualTo(0));
+            Assert.That(responseResult.message,Is.EqualTo(expectedResponse.message));
         }
     }
 }

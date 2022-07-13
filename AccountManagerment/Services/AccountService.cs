@@ -29,6 +29,5 @@ namespace AccountManagerment.Services
             }
             return response;
         }
-
     }
 }

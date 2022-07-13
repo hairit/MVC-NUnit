@@ -6,22 +6,11 @@ namespace AccountManagerment.Repositories
     public class AccountRepository : IAccountRepository
     {
         private AssignmentContext _context;
-        private IAccountDatabaseAction _action;
 
-        public AccountRepository(AssignmentContext context,IAccountDatabaseAction action)
+        public AccountRepository(AssignmentContext context)
         {
             this._context = context;
-            this._action = action;
-        }
-
-        public Account Register(Account account)
-        {
-            if (_action.InsertAccount(_context, account)) return account;
-            else return new Account()
-            {
-                Email = null,
-                FullName = null
-            };
+           
         }
 
         public ResponseAccount GetAccounts()
@@ -33,7 +22,7 @@ namespace AccountManagerment.Repositories
             };
             try
             {
-                List<Account> accounts = _action.GetAccounts(_context);
+                List<Account> accounts = _context.Accounts.ToList();
                 if (accounts.Count > 0)
                 {
                     response.data = accounts;
@@ -48,24 +37,31 @@ namespace AccountManagerment.Repositories
             }
         }
 
-        //public Account Register(string email, string fullName)
-        //{
-        //    Account newAcc = new Account()
-        //    {
-        //        Email = email,
-        //        Fullname = fullName
-        //    };
-        //    try
-        //    {
-        //        _context.Accounts.Add(newAcc);
-        //        _context.SaveChanges();
-        //        return newAcc;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine(ex.Message);
-        //        return null;
-        //    }
-        //}
+        public Account Register(Account account)
+        {
+            try
+            {
+                if (account != null)
+                {
+                    _context.Accounts.Add(account);
+                    _context.SaveChanges();
+                    return account;
+                }
+                return new Account()
+                {
+                    FullName = null,
+                    Email = null
+                };
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return new Account()
+                {
+                    FullName = null,
+                    Email = null
+                };
+            }
+        }
     }
 }
